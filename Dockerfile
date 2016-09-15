@@ -1,4 +1,4 @@
-FROM resin/rpi-node:6.5.0-slim-20160907
+FROM resin/raspberrypi3-node:6.5.0-slim-20160910
 
 # Save source folder
 RUN printf "%s\n" "${PWD##}" > SOURCEFOLDER
